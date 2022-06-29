@@ -1,11 +1,10 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
     int r;
-    float d;
+    float area;
     scanf("%d",&r);
-    d=3.14*r*r;
-    printf("%.2f",d);
-    return 0;
+    area=3.14*(pow(r,2));
+    printf("%.2f",area);
 }
-    
